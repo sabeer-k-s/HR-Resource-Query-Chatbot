@@ -101,7 +101,7 @@ Error handling: Returns 400 for invalid requests and 500 for internal errors, wi
 ## AI Development Process
 **Document how you used AI tools in your development:**
 
-- **Which AI coding assistants did you use?** Grok (for project design), ChatGPT (for Ollama and OpenAI configuration), Claude (for prompt engineering), GitHub Copilot (for bug fixing and code completion).
+- **Which AI coding assistants did you use?** Grok (for project design), ChatGPT (for Ollama and Groq configuration), Claude (for prompt engineering), GitHub Copilot (for bug fixing and code completion).
 
 - **How did AI help in different phases?**
   - **Project Design and Architecture**: Grok assisted in outlining the RAG pipeline and system components, suggesting modular separations.
