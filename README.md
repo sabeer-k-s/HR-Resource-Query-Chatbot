@@ -133,7 +133,7 @@ With more time, I would:
 - Upgrade to more advanced LLMs (e.g., fine-tuned models) and add features like resume upload for dynamic employee data ingestion.
 
 ## Demo
-Live Demo: [Streamlit Cloud Link]([https://your-streamlit-app-url.streamlit.app](https://hr-resource-query-chatbot.streamlit.app/]) (Backend exposed via ngrok at the provided tunnel URL).
+Live Demo: [Streamlit Cloud Link]([https://hr-resource-query-chatbot.streamlit.app](https://hr-resource-query-chatbot.streamlit.app/]) (Backend exposed via ngrok at the provided tunnel URL).
 
 Screenshots:
 
