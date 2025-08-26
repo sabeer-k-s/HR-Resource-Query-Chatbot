@@ -24,7 +24,7 @@ The system is structured around a modular RAG pipeline, ensuring separation of c
 
 3. **API Layer**: FastAPI provides asynchronous endpoints with automatic Swagger documentation, handling query parsing, RAG execution, and response formatting.
 
-4. **Frontend**: Streamlit app offers a chat-like interface for inputting queries and displaying results in a readable format (e.g., highlighted employee details).
+4. **Frontend**: Streamlit app offers a chat interface for inputting queries and displaying results in a readable format (e.g., highlighted employee details).
 
 This architecture prioritizes performance with local processing where possible, while allowing cloud-based enhancements.
 
@@ -33,7 +33,7 @@ Follow these steps to set up and run the project locally:
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/yourusername/hr-resource-chatbot.git
+   git clone https://github.com/sabeer-k-s/hr-resource-chatbot.git
    cd hr-resource-chatbot
    ```
 
@@ -51,9 +51,9 @@ Follow these steps to set up and run the project locally:
    ```
    Note: Requirements include fastapi, uvicorn, streamlit, sentence-transformers, faiss-cpu, ollama (optional), and openai (optional).
 
-4. **Configure Environment** (if using Ollama or OpenAI):
-   - For Ollama: Install Ollama locally and pull a model (e.g., `ollama pull llama3`).
-   - For OpenAI: Set your API key in `.env` as `OPENAI_API_KEY=your_key`.
+4. **Configure Environment** (if using Ollama or Groq):
+   - For Ollama: Install Ollama locally and pull a model (e.g., `ollama pull mistral`).
+   - For Groq: Set your API key in `.env` as `GROQ_API_KEY=your_key`.
 
 5. **Run the Backend API**:
    ```
