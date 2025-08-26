@@ -1,0 +1,132 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "skills": ["Python", "React", "AWS"],
+      "experience_years": 5,
+      "projects": ["E-commerce Platform", "Healthcare Dashboard"],
+      "availability": "available"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "skills": ["Java", "Spring", "Docker"],
+      "experience_years": 4,
+      "projects": ["Banking System", "Logistics Platform"],
+      "availability": "unavailable"
+    },
+    {
+      "id": 3,
+      "name": "Sarah Chen",
+      "skills": ["Python", "TensorFlow", "PyTorch"],
+      "experience_years": 6,
+      "projects": ["Medical Diagnosis Platform", "AI Research"],
+      "availability": "available"
+    },
+    {
+      "id": 4,
+      "name": "Michael Rodriguez",
+      "skills": ["Python", "scikit-learn", "pandas"],
+      "experience_years": 4,
+      "projects": ["Patient Risk Prediction System"],
+      "availability": "available"
+    },
+    {
+      "id": 5,
+      "name": "Emily Davis",
+      "skills": ["React Native", "JavaScript", "Node.js"],
+      "experience_years": 3,
+      "projects": ["Mobile Banking App"],
+      "availability": "available"
+    },
+    {
+      "id": 6,
+      "name": "James Wilson",
+      "skills": ["AWS", "Docker", "Kubernetes"],
+      "experience_years": 7,
+      "projects": ["Cloud Migration", "DevOps Pipeline"],
+      "availability": "unavailable"
+    },
+    {
+      "id": 7,
+      "name": "Laura Martinez",
+      "skills": ["Python", "Django", "PostgreSQL"],
+      "experience_years": 5,
+      "projects": ["Inventory Management System"],
+      "availability": "available"
+    },
+    {
+      "id": 8,
+      "name": "David Lee",
+      "skills": ["Java", "Spring Boot", "Kafka"],
+      "experience_years": 6,
+      "projects": ["Event Streaming Platform"],
+      "availability": "available"
+    },
+    {
+      "id": 9,
+      "name": "Sophia Brown",
+      "skills": ["React", "TypeScript", "GraphQL"],
+      "experience_years": 4,
+      "projects": ["Social Media Dashboard"],
+      "availability": "available"
+    },
+    {
+      "id": 10,
+      "name": "Thomas Clark",
+      "skills": ["Python", "Flask", "MongoDB"],
+      "experience_years": 3,
+      "projects": ["E-commerce Backend"],
+      "availability": "unavailable"
+    },
+    {
+      "id": 11,
+      "name": "Olivia Walker",
+      "skills": ["React Native", "Firebase", "TypeScript"],
+      "experience_years": 4,
+      "projects": ["Fitness App"],
+      "availability": "available"
+    },
+    {
+      "id": 12,
+      "name": "Daniel Kim",
+      "skills": ["AWS", "Lambda", "DynamoDB"],
+      "experience_years": 5,
+      "projects": ["Serverless API"],
+      "availability": "available"
+    },
+    {
+      "id": 13,
+      "name": "Emma White",
+      "skills": ["Python", "Machine Learning", "R"],
+      "experience_years": 5,
+      "projects": ["Fraud Detection System"],
+      "availability": "available"
+    },
+    {
+      "id": 14,
+      "name": "Liam Harris",
+      "skills": ["Go", "Kubernetes", "Docker"],
+      "experience_years": 6,
+      "projects": ["Microservices Architecture"],
+      "availability": "unavailable"
+    },
+    {
+      "id": 15,
+      "name": "Ava Thompson",
+      "skills": ["Python", "Django", "React"],
+      "experience_years": 4,
+      "projects": ["Healthcare Portal"],
+      "availability": "available"
+    },
+    {
+      "id": 16,
+      "name": "Noah Garcia",
+      "skills": ["JavaScript", "Node.js", "Express"],
+      "experience_years": 3,
+      "projects": ["Real-time Chat App"],
+      "availability": "available"
+    }
+  ]
+}
