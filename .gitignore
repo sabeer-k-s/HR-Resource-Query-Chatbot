@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.env
+.venv
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+# Logs and temporary files
+*.log
+tmp/
+.ipynb_checkpoints/
+# Operating System files
+.DS_Store
+Thumbs.db
