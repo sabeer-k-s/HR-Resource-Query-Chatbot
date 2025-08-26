@@ -33,7 +33,7 @@ if query := st.chat_input("Enter your query (e.g., 'Find Python developers with 
     
     # Call FastAPI backend
     try:
-        response = requests.post("http://localhost:8000/chat", json={"query": query})
+        response = requests.post("https://broadly-more-pug.ngrok-free.app/chat", json={"query": query})
         response.raise_for_status()
         result = response.json()
         response_text = result["response"]
