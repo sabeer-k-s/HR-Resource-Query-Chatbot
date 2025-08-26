@@ -138,10 +138,13 @@ Live Demo: [Streamlit Cloud Link]([https://your-streamlit-app-url.streamlit.app]
 Screenshots:
 
 - **Chat Interface**:
-  ![Chat Interface](screenshots/chat_interface.png)
+  ![Chat Interface](https://github.com/sabeer-k-s/HR-Resource-Query-Chatbot/blob/main/screenshots/Screenshot%20from%202025-08-26%2014-58-48.png)
 
 - **Search Results**:
-  ![Search Results](screenshots/search_results.png)
+  ![Search Results](https://github.com/sabeer-k-s/HR-Resource-Query-Chatbot/blob/main/screenshots/Screenshot%20from%202025-08-26%2015-05-26.png)
 
 - **API Documentation**:
-  ![API Documentation](screenshots/api_docs.png)
+  ![API Documentation](https://github.com/sabeer-k-s/HR-Resource-Query-Chatbot/blob/main/screenshots/Screenshot%20from%202025-08-26%2015-08-17.png)
+  
+- **API Documentation1**:
+  ![API Documentation1](https://github.com/sabeer-k-s/HR-Resource-Query-Chatbot/blob/main/screenshots/Screenshot%20from%202025-08-26%2015-08-36.png)
