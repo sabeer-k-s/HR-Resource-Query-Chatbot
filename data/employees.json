@@ -1,132 +1,148 @@
 {
-  "employees": [
-    {
-      "id": 1,
-      "name": "Alice Johnson",
-      "skills": ["Python", "React", "AWS"],
-      "experience_years": 5,
-      "projects": ["E-commerce Platform", "Healthcare Dashboard"],
-      "availability": "available"
-    },
-    {
-      "id": 2,
-      "name": "Bob Smith",
-      "skills": ["Java", "Spring", "Docker"],
-      "experience_years": 4,
-      "projects": ["Banking System", "Logistics Platform"],
-      "availability": "unavailable"
-    },
-    {
-      "id": 3,
-      "name": "Sarah Chen",
-      "skills": ["Python", "TensorFlow", "PyTorch"],
-      "experience_years": 6,
-      "projects": ["Medical Diagnosis Platform", "AI Research"],
-      "availability": "available"
-    },
-    {
-      "id": 4,
-      "name": "Michael Rodriguez",
-      "skills": ["Python", "scikit-learn", "pandas"],
-      "experience_years": 4,
-      "projects": ["Patient Risk Prediction System"],
-      "availability": "available"
-    },
-    {
-      "id": 5,
-      "name": "Emily Davis",
-      "skills": ["React Native", "JavaScript", "Node.js"],
-      "experience_years": 3,
-      "projects": ["Mobile Banking App"],
-      "availability": "available"
-    },
-    {
-      "id": 6,
-      "name": "James Wilson",
-      "skills": ["AWS", "Docker", "Kubernetes"],
-      "experience_years": 7,
-      "projects": ["Cloud Migration", "DevOps Pipeline"],
-      "availability": "unavailable"
-    },
-    {
-      "id": 7,
-      "name": "Laura Martinez",
-      "skills": ["Python", "Django", "PostgreSQL"],
-      "experience_years": 5,
-      "projects": ["Inventory Management System"],
-      "availability": "available"
-    },
-    {
-      "id": 8,
-      "name": "David Lee",
-      "skills": ["Java", "Spring Boot", "Kafka"],
-      "experience_years": 6,
-      "projects": ["Event Streaming Platform"],
-      "availability": "available"
-    },
-    {
-      "id": 9,
-      "name": "Sophia Brown",
-      "skills": ["React", "TypeScript", "GraphQL"],
-      "experience_years": 4,
-      "projects": ["Social Media Dashboard"],
-      "availability": "available"
-    },
-    {
-      "id": 10,
-      "name": "Thomas Clark",
-      "skills": ["Python", "Flask", "MongoDB"],
-      "experience_years": 3,
-      "projects": ["E-commerce Backend"],
-      "availability": "unavailable"
-    },
-    {
-      "id": 11,
-      "name": "Olivia Walker",
-      "skills": ["React Native", "Firebase", "TypeScript"],
-      "experience_years": 4,
-      "projects": ["Fitness App"],
-      "availability": "available"
-    },
-    {
-      "id": 12,
-      "name": "Daniel Kim",
-      "skills": ["AWS", "Lambda", "DynamoDB"],
-      "experience_years": 5,
-      "projects": ["Serverless API"],
-      "availability": "available"
-    },
-    {
-      "id": 13,
-      "name": "Emma White",
-      "skills": ["Python", "Machine Learning", "R"],
-      "experience_years": 5,
-      "projects": ["Fraud Detection System"],
-      "availability": "available"
-    },
-    {
-      "id": 14,
-      "name": "Liam Harris",
-      "skills": ["Go", "Kubernetes", "Docker"],
-      "experience_years": 6,
-      "projects": ["Microservices Architecture"],
-      "availability": "unavailable"
-    },
-    {
-      "id": 15,
-      "name": "Ava Thompson",
-      "skills": ["Python", "Django", "React"],
-      "experience_years": 4,
-      "projects": ["Healthcare Portal"],
-      "availability": "available"
-    },
-    {
-      "id": 16,
-      "name": "Noah Garcia",
-      "skills": ["JavaScript", "Node.js", "Express"],
-      "experience_years": 3,
-      "projects": ["Real-time Chat App"],
-      "availability": "available"
-    }
-  ]
+"employees": [
+{
+"id": 1,
+"name": "Dr. Sarah Chen",
+"skills": ["Python", "TensorFlow", "PyTorch", "Computer Vision", "Healthcare AI", "Data Analysis", "Scikit-learn", "Medical Imaging", "AWS", "Docker"],
+"experience_years": 6,
+"projects": ["Medical Diagnosis Platform", "Drug Discovery AI", "Patient Data Analytics System", "Radiology Assistant Tool"],
+"availability": "available"
+},
+{
+"id": 2,
+"name": "Michael Rodriguez",
+"skills": ["Python", "Scikit-learn", "Pandas", "AWS", "Docker", "SQL", "HIPAA Compliance", "Data Engineering", "Electronic Health Records"],
+"experience_years": 4,
+"projects": ["Patient Risk Prediction System", "Healthcare Data Warehouse", "Telemedicine Platform Backend", "Clinical Trial Analytics"],
+"availability": "available"
+},
+{
+"id": 3,
+"name": "Alice Johnson",
+"skills": ["Python", "React", "AWS", "JavaScript", "Node.js", "TypeScript", "Docker", "Kubernetes", "CI/CD"],
+"experience_years": 5,
+"projects": ["E-commerce Platform", "Healthcare Dashboard", "Mobile Banking App", "Real-time Analytics Dashboard"],
+"availability": "available"
+},
+{
+"id": 4,
+"name": "David Kim",
+"skills": ["React Native", "JavaScript", "TypeScript", "iOS", "Android", "Redux", "Firebase", "GraphQL", "Jest"],
+"experience_years": 4,
+"projects": ["Fitness Tracking App", "Healthcare Mobile App", "E-commerce Mobile Platform", "Social Media App"],
+"availability": "available"
+},
+{
+"id": 5,
+"name": "Emily Wong",
+"skills": ["Java", "Spring Boot", "Microservices", "AWS", "Docker", "Kubernetes", "SQL", "NoSQL", "Kafka"],
+"experience_years": 7,
+"projects": ["Banking Core System", "Payment Processing Platform", "Fraud Detection System", "High-Frequency Trading Platform"],
+"availability": "available"
+},
+{
+"id": 6,
+"name": "James Wilson",
+"skills": ["Python", "Django", "Flask", "PostgreSQL", "Redis", "Celery", "AWS", "React", "REST APIs"],
+"experience_years": 5,
+"projects": ["Content Management System", "E-learning Platform", "Social Network API", "Real-time Chat Application"],
+"availability": "available"
+},
+{
+"id": 7,
+"name": "Sophia Martinez",
+"skills": ["JavaScript", "Vue.js", "Nuxt.js", "CSS", "SASS", "Webpack", "Jest", "Cypress", "AWS Amplify"],
+"experience_years": 3,
+"projects": ["Travel Booking Platform", "Real Estate Portal", "News Aggregator Site", "E-commerce Frontend"],
+"availability": "available"
+},
+{
+"id": 8,
+"name": "Robert Taylor",
+"skills": ["C#", ".NET", "ASP.NET Core", "SQL Server", "Azure", "Entity Framework", "Docker", "React", "Microservices"],
+"experience_years": 8,
+"projects": ["Enterprise Resource Planning System", "Supply Chain Management", "Customer Relationship Management", "Inventory Management System"],
+"availability": "available"
+},
+{
+"id": 9,
+"name": "Lisa Anderson",
+"skills": ["Python", "R", "SQL", "Tableau", "Power BI", "Statistics", "Machine Learning", "Data Visualization", "Excel"],
+"experience_years": 4,
+"projects": ["Sales Analytics Dashboard", "Customer Segmentation Analysis", "Market Research Platform", "Financial Forecasting System"],
+"availability": "available"
+},
+{
+"id": 10,
+"name": "Daniel Brown",
+"skills": ["Go", "Kubernetes", "Docker", "AWS", "Terraform", "Prometheus", "Grafana", "Linux", "Bash Scripting"],
+"experience_years": 6,
+"projects": ["Cloud Infrastructure Platform", "DevOps Automation System", "Monitoring and Alerting System", "CI/CD Pipeline"],
+"availability": "available"
+},
+{
+"id": 11,
+"name": "Maria Garcia",
+"skills": ["Swift", "iOS", "Objective-C", "Xcode", "CocoaPods", "Firebase", "REST APIs", "Core Data", "UIKit"],
+"experience_years": 5,
+"projects": ["Healthcare iOS App", "Fitness Tracking App", "Social Media iOS App", "E-commerce iOS Platform"],
+"availability": "available"
+},
+{
+"id": 12,
+"name": "Kevin Lee",
+"skills": ["Android", "Kotlin", "Java", "Android Studio", "Firebase", "REST APIs", "Room Database", "Jetpack Compose", "Dagger"],
+"experience_years": 4,
+"projects": ["Banking Android App", "Travel Android App", "News Reader App", "Fitness Android App"],
+"availability": "available"
+},
+{
+"id": 13,
+"name": "Jennifer Davis",
+"skills": ["Ruby", "Ruby on Rails", "PostgreSQL", "RSpec", "Redis", "Sidekiq", "AWS", "Docker", "React"],
+"experience_years": 5,
+"projects": ["Project Management Tool", "E-commerce Platform", "API Gateway", "Document Management System"],
+"availability": "available"
+},
+{
+"id": 14,
+"name": "Thomas Moore",
+"skills": ["PHP", "Laravel", "MySQL", "JavaScript", "Vue.js", "Redis", "AWS", "Docker", "REST APIs"],
+"experience_years": 6,
+"projects": ["Content Management System", "E-learning Platform", "Social Networking Site", "Booking System"],
+"availability": "available"
+},
+{
+"id": 15,
+"name": "Amanda White",
+"skills": ["Python", "FastAPI", "MongoDB", "Docker", "Kubernetes", "Redis", "Celery", "AWS", "React"],
+"experience_years": 4,
+"projects": ["Real-time Analytics API", "Microservices Architecture", "Data Processing Pipeline", "WebSocket Chat Service"],
+"availability": "available"
+},
+{
+"id": 16,
+"name": "Christopher Hall",
+"skills": ["TypeScript", "Node.js", "NestJS", "PostgreSQL", "MongoDB", "Docker", "AWS", "GraphQL", "Jest"],
+"experience_years": 5,
+"projects": ["E-commerce Backend", "Social Media API", "Real-time Notification System", "Authentication Service"],
+"availability": "available"
+},
+{
+"id": 17,
+"name": "Jessica Clark",
+"skills": ["Python", "Django", "React", "PostgreSQL", "Docker", "AWS", "Elasticsearch", "Celery", "REST APIs"],
+"experience_years": 4,
+"projects": ["Search Engine Platform", "E-commerce Site", "Content Aggregator", "API Integration System"],
+"availability": "available"
+},
+{
+"id": 18,
+"name": "Matthew Robinson",
+"skills": ["Java", "Spring Boot", "Hibernate", "MySQL", "Microservices", "Docker", "Kubernetes", "AWS", "React"],
+"experience_years": 7,
+"projects": ["Banking Application", "Insurance Platform", "Loan Management System", "Document Processing System"],
+"availability": "available"
+}
+]
 }

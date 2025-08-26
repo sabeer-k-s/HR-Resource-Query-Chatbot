@@ -41,18 +41,16 @@ if query := st.chat_input("Enter your query (e.g., 'Find Python developers with 
         
         # Display assistant response
         with st.chat_message("assistant"):
-            st.markdown(response_text)
-            # Only display employee table if data exists and is valid
+            st.markdown(response_text)  # Already renders markdown format, which now matches assignment style
             if employees:
-                try:
-                    df = pd.DataFrame(employees)
-                    required_columns = ["name", "skills", "experience_years", "projects", "availability"]
-                    if all(col in df.columns for col in required_columns):
-                        st.table(df[required_columns])
-                    else:
-                        st.warning("Employee data is incomplete and cannot be displayed as a table.")
-                except Exception as e:
-                    st.error(f"Error displaying employee data: {str(e)}")
+                df = pd.DataFrame(employees)
+                required_columns = ["name", "skills", "experience_years", "projects", "availability"]
+                if all(col in df.columns for col in required_columns):
+                    st.table(df[required_columns])
+                else:
+                    st.warning("Employee data is incomplete and cannot be displayed as a table.")
+                    # except Exception as e:
+                    # st.error(f"Error displaying employee data: {str(e)}")
         
         # Store response and employees in session state
         st.session_state.messages.append({"role": "assistant", "content": response_text, "employees": employees})
